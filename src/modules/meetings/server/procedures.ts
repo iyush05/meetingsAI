@@ -91,7 +91,6 @@ export const meetingsRouter = createTRPCRouter({
 
     return exisitngMeeting;
     }),
-    //TODO: change 'getMany' to use 'protectedProcedure'
     getMany: protectedProcedure
         .input(z.object({
             page: z.number().default(DEFAULT_PAGE),

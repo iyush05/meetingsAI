@@ -9,7 +9,6 @@ import { Badge } from "@/components/ui/badge"
 import { MeetingGetMany } from "../../types"
 import {
   CornerDownRight, 
-  VideoIcon,
   CircleCheckIcon,
   CircleXIcon,
   ClockArrowUpIcon,
