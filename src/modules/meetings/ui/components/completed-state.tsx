@@ -1,5 +1,4 @@
 import Link from "next/link";
-import MarkDown from "react-markdown";
 
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
