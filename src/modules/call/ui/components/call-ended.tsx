@@ -1,17 +1,6 @@
 import Link from "next/link";
-import { LogInIcon } from "lucide-react";
-import {
-    DefaultVideoPlaceholder,
-    StreamVideoParticipant,
-    ToggleAudioPreviewButton,
-    ToggleVideoPreviewButton,
-    useCallStateHooks,
-    VideoPreview,
-} from "@stream-io/video-react-sdk";
 
-import { authClient } from "@/lib/auth-client";
 import { Button } from "@/components/ui/button";
-import { generateAvatarUri } from "@/lib/avatar";
 
 import "@stream-io/video-react-sdk/dist/css/styles.css";
 

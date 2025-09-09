@@ -3,7 +3,6 @@ import { botttsNeutral, initials } from "@dicebear/collection"
 
 import { cn } from "@/lib/utils";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { allTasks } from "better-auth/react";
 
 interface GeneratedAvatarProps {
     seed: string;

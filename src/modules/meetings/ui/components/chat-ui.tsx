@@ -8,7 +8,6 @@ import {
     Channel,
     MessageInput,
     MessageList,
-    Thread,
     Window,
 } from "stream-chat-react";
 
